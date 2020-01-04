@@ -21,7 +21,7 @@ This repository demonstrates how to achieve this using the Nix package manager.
    ```
    nix-shell
    ```
-3. Type `cabal new-build` to build the project.
-4. Type `cabal new-run` to run the sample executable.
+3. Type `cabal build` to build the project.
+4. Type `cabal run` to run the sample executable.
 
 That's all folks ! Modify to your needs.
