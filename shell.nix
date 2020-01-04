@@ -16,7 +16,8 @@ in
       (haskellPackages.ghcWithPackages(p: with p;
         [llvm-hs
          llvm-hs-pure
-         llvm-hs-pretty]))
+         llvm-hs-pretty
+         text]))
       llvm_8
     ];
   }
