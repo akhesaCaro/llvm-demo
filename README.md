@@ -1,6 +1,6 @@
 # Introduction
 
-Working for LLVM in Haskell can be a bit tricky, as one needs to get:
+Working with LLVM in Haskell can be a bit tricky, as one needs to get:
 
 - A proper LLVM suite.
 - *Matching* Haskell bindings.
