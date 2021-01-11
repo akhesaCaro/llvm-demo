@@ -13,6 +13,7 @@ in
   with pkgs; mkShell {
     buildInputs = [
       cabal-install
+      llvm
       (haskellPackages.ghcWithPackages(p: with p;
         [llvm-hs
          llvm-hs-pure
